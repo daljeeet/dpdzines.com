@@ -1,0 +1,20 @@
+.sliderTwo {
+    width: 80%;
+    margin: auto;
+    height: 400px;
+}
+
+.carousel_wrapper {
+    height: 100%;
+}
+
+.carsoul {
+    max-height: 100%;
+    margin: 2px;
+}
+
+.sliderTwo_image {
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

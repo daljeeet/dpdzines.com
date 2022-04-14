@@ -1,0 +1,58 @@
+.project_container_main {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    height: 90vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.projects_title {
+    font-size: var(--h2-font-size);
+    color: var(--title-color);
+    text-transform: capitalize;
+    margin: auto;
+    top: 2;
+    text-decoration: underline;
+}
+
+.project_city {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    top: 10;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+}
+
+.project_card {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.project_card_list {
+    width: 100%;
+}
+
+.project_card_img {
+    margin-top: 0;
+    height: 92%;
+    width: 100%;
+}
+
+.project_btn {
+    cursor: pointer;
+    border: 1px solid rgb(11, 11, 50);
+    border-radius: 50%;
+}
+
+.project_header {
+    display: flex;
+    margin: 5px 10px;
+}
