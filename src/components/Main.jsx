@@ -52,7 +52,7 @@ const Main = () => {
         {/* <!--==================== HOME ====================--> */}
         <section className="home" id="home">
           <img
-            src={`/Selected/homebg/${random}.jpg`}
+            src={`/selected/homebg/${random}.jpg`}
             alt="home image"
             className="home__img"
           />
